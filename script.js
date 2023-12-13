@@ -28,32 +28,32 @@ const dati_membri = [
     {
         nome: 'Wayne Barnett',
         ruolo: 'Founder & CEO',
-        foto: '../img/wayne-barnett-founder-ceo.jpg'
+        foto: 'wayne-barnett-founder-ceo.jpg'
     },
     {
         nome: 'Angela Caroll',
         ruolo: 'Chief Editor',
-        foto: '../img/angela-caroll-chief-editor.jpg'
+        foto: 'angela-caroll-chief-editor.jpg'
     },
     {
         nome: 'Walter Gordon',
         ruolo: 'Office Manager',
-        foto: '../img/walter-gordon-office-manager.jpg'
+        foto: 'walter-gordon-office-manager.jpg'
     },
     {
         nome: 'Angela Lopez',
         ruolo: 'Social Media Manager',
-        foto: '../img/angela-lopez-social-media-manager.jpg'
+        foto: 'angela-lopez-social-media-manager.jpg'
     },
     {
         nome: 'Scott Estrada',
         ruolo: 'Developer',
-        foto: '../img/scott-estrada-developer.jpg'
+        foto: 'scott-estrada-developer.jpg'
     },
     {
         nome: 'Barbara Ramos',
         ruolo: 'Graphic Designer',
-        foto: '../img/barbara-ramos-graphic-designer.jpg'
+        foto: 'barbara-ramos-graphic-designer.jpg'
     },
 ]
 
@@ -72,7 +72,7 @@ for (let i = 0; i < dati_membri.length; i++) {
     const membriList = `
     <div class="memb col-6 card m-3 bg-secondary text-light">     
         <div class="card-body justify-content-center align-items-center">
-            <img src="${ogniMembro.foto}" class="w-50 card-img">
+            <img src="./img/${ogniMembro.foto}" class="w-50 card-img">
             <h2 class="card-title">${ogniMembro.nome}</h2>
             <p class="card-text">${ogniMembro.ruolo}</p>
         </div>
